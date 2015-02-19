@@ -15,30 +15,76 @@ Research
 
 Before you start coding, look up the answers the following questions
 and place them inline below:
-
+__________________________________________________________________
 1. What are some books that Martin Fowler has written?
+__________________________________________________________________
+>
+__________________________________________________________________
 2. What's the difference between "active record" and "ActiveRecord"?
+__________________________________________________________________
+>
+__________________________________________________________________
 3. Is the "active record" pattern an ORM?
+__________________________________________________________________
+>
+__________________________________________________________________
 4. Why might we want to use an ORM in our code?
+__________________________________________________________________
+>
+__________________________________________________________________
 5. What gem do we need to allow Sinatra to interact with ActiveRecord?
+__________________________________________________________________
+>
+__________________________________________________________________
 6. What is `rake`?
+__________________________________________________________________
+>
+__________________________________________________________________
 7. What is a database migration?
+__________________________________________________________________
+>
+__________________________________________________________________
 8. What command can we use to create a new ActiveRecord migration?
+__________________________________________________________________
+>
+__________________________________________________________________
 9. What command runs our existing migrations?
+__________________________________________________________________
+>
+__________________________________________________________________
 10. What commands reverses a migration?
-11. What command tells us which migrations have run and which have
-not?
+__________________________________________________________________
+>
+__________________________________________________________________
+11. What command tells us which migrations have run and which have not?
+__________________________________________________________________
+>
+__________________________________________________________________
 12. Which class do we have to extend if we want to create a new model?
-13. What's the difference between ActiveRecord's `.new` and `.create`
-methods?
-14. What's the difference between ActiveRecord's `.find` and
-`.find_by` methods?
-15. What's the difference between ActiveRecord's `.find_by` and
-`.where` methods?
-16. What ActiveRecord method do we use to change a value in the
-database?
-17. What ActiveRecord method do we use to remove an item from the
-database?
+__________________________________________________________________
+>
+__________________________________________________________________
+13. What's the difference between ActiveRecord's `.new` and `.create` methods?
+__________________________________________________________________
+>
+__________________________________________________________________
+14. What's the difference between ActiveRecord's `.find` and `.find_by` methods?
+__________________________________________________________________
+>
+__________________________________________________________________
+15. What's the difference between ActiveRecord's `.find_by` and `.where` methods?
+__________________________________________________________________
+>
+__________________________________________________________________
+16. What ActiveRecord method do we use to change a value in the database?
+__________________________________________________________________
+>
+__________________________________________________________________
+17. What ActiveRecord method do we use to remove an item from the database?
+__________________________________________________________________
+>
+__________________________________________________________________
+
 
 Steps
 -----

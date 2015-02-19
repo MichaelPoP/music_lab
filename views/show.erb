@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Artist Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <style type="text/css">
+  body {
+    background: #aa84b6;
+  }
+  .button {
+    border:2px outset gray;
+    background: gray;
+    font-size: 20px;
+    width:200px;
+  }
+
+  </style>
+    
+      <h2><%= @artist.name %></h2>
+     
+      <h2><a href="/artists/<%= @artist.id %>/edit">Edit artist</a></h2>
+   
+    
+
+</body>
+</html>

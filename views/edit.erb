@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edit ARtist Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+<body>
+  <h1> Edit ArtisT ~ !?</h1>
+
+<form class="form-horizontal" action="/artists/<%= @artist.id %>" method="POST">
+<input type="hidden" name="_method" value="PUT">
+  <div class="form-group">
+    <label class = "col-sm-2 control-label"for="name">Name: </label>
+    <div class ="col-sm-10">
+      <input autofocus required class= "form-control" type="text" name="name" id="name">
+    </div>
+  </div>
+  
+    
+  <div class="col-sm-offset-2 col-sm-10">
+    <input class="btn btn-success"type="submit" value="Add Student">
+  </div>
+</form>
+
+ 
+
+</body>
+</html>
