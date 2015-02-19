@@ -18,23 +18,23 @@ and place them inline below:
 __________________________________________________________________
 1. What are some books that Martin Fowler has written?
 __________________________________________________________________
->
+>noSQL Distilled, Refactoring, Domain Specific Languages, Refactoring, Patterns of Enterprise Application Architecture, UML Distilled, Refactoring Ruby Edition, Analysis Patterns, Planning Extreme Programming
 __________________________________________________________________
 2. What's the difference between "active record" and "ActiveRecord"?
 __________________________________________________________________
->
+>’active record’ is a gem, and is not capitalized; “ActiveRecord” is a library, is one word and is not capitalized.
 __________________________________________________________________
 3. Is the "active record" pattern an ORM?
 __________________________________________________________________
->
+>The “active record” ‘pattern’ implements Object-relational mapping but it is not itself an ORM. It takes the tables from a database and combines them with persistent objects in an object-oriented framework. The objects are created through ruby while sinatra accesses the database; active record acts as the middle-man between ruby and sinatra in ruby’s model-view-controller framework by acting as the ‘model’ component. Active record does this with an ORM pattern but includes inheritance and associations. 
 __________________________________________________________________
 4. Why might we want to use an ORM in our code?
 __________________________________________________________________
->
+>An ORM would have lots of uses in any website or application that uses a database that is supposed to have some relationship to user requests or with other types of data sets. Put more clearly, Object Relational Mapping takes data from a database, that is requested by a user on some interface, and turns it into a set of ’virtual’ objects so that the user can do what they need with it (whether that is just viewing or deleting etc.) even when the type of language or system they are making the request with is different.
 __________________________________________________________________
 5. What gem do we need to allow Sinatra to interact with ActiveRecord?
 __________________________________________________________________
->
+>’sinatra-activerecord’
 __________________________________________________________________
 6. What is `rake`?
 __________________________________________________________________
@@ -42,7 +42,7 @@ __________________________________________________________________
 __________________________________________________________________
 7. What is a database migration?
 __________________________________________________________________
->
+>Migration allows you to use Ruby to define changes to your database schema. More basically, it allows you to make and alter a database that is being used by your application.
 __________________________________________________________________
 8. What command can we use to create a new ActiveRecord migration?
 __________________________________________________________________

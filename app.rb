@@ -16,7 +16,7 @@ end
 
 get '/artists' do
   @artists = Artist.all
-  
+  @artist = Artist.find_by(id: params[:id])
   erb :index
 end
 
