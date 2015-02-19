@@ -22,8 +22,12 @@
     <input class="btn btn-success"type="submit" value="Add Student">
   </div>
 </form>
-
- 
+<form class="form-horizontal" action="/artists/<%= @artist.id %>" method="POST">
+<label class = "col-sm-2 control-label"for="delete">Delete </label>
+          <input type="hidden" name="_method" value="DELETE">
+          <input type="submit" value="delete">
+        
+</form>
 
 </body>
 </html>
